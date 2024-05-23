@@ -8,7 +8,7 @@ pipeline {
                 deleteDir()
                 
                 // Checkout the Git repository
-                git branch: 'main', url: 'https://github.com/nadir-0000/CF-DevOps.git'
+                git url: 'https://github.com/nadir-0000/CF-DevOps.git', branch: 'main'
             }
         }
         
