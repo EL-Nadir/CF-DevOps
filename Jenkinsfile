@@ -8,7 +8,7 @@ pipeline {
                 deleteDir()
                 
                 // Checkout the Git repository
-                git url: 'https://github.com/nadir-0000/CF-DevOps.git', branch: 'main'
+                git branch: 'main', url: 'https://github.com/nadir-0000/Maven_Project.git'
             }
         }
         
