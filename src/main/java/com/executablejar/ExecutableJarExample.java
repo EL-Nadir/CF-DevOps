@@ -11,6 +11,7 @@ public class ExecutableJarExample {
 
     public static void main(String[] args) {
         System.out.println("Bonjour et bon courage dans votre examen en DevOps");
+        System.out.println("this is my modification in branch dev");
         // added if to use library from classpath to be sure
         // that jar gets dependencies
         if(StringUtils.isNoneEmpty(JAVA_REPOSITORY_TEMPLATE)) {
